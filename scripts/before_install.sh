@@ -1,4 +1,4 @@
 #!/bin/bash
-cd /home/ec2-user/server
-curl -sL https://rpm.nodesource.com/setup_20.x | sudo -E bash -
-yum -y install nodejs npm
+cd /home/ubuntu/my-app/rp-medium-react
+# curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
+# sudo apt install -y nodejs
