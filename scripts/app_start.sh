@@ -1,4 +1,7 @@
 #!/bin/bash
-cd /home/ubuntu/my-app/rp-medium-react
-curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
-sudo apt install -y nodejs
+cd /home/ec2-user/server/src
+npm start
+pm2 start npm --name "covidapp" -- start
+pm2 startup
+pm2 save
+pm2 restart all

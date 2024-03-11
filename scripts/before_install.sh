@@ -1,2 +1,4 @@
 #!/bin/bash
-sudo nginx -t && sudo systemctl reload nginx
+cd /home/ec2-user/server
+curl -sL https://rpm.nodesource.com/setup_20.x | sudo -E bash -
+yum -y install nodejs npm
