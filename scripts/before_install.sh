@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # navigate to app folder
-cd /app
+cd /home/ubuntu/my-app
 
 # install node and npm
 apt-get install curl
